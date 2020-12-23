@@ -1,0 +1,152 @@
+body{
+    background-color: #E5E7E9;
+     margin:0;
+     margin-bottom:2px;
+     padding-left:1px;
+     padding-right:1px;
+
+}
+
+/* ....................header css........................*/
+
+header{
+   
+    background-color:#363b3f;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+h1#h1_1{
+    display: inline-block;
+    padding-left:5px;
+}
+h1#h1_1:hover{
+    color:lightgreen;
+}
+
+div#contact{
+    display:inline-block;
+    float:right;
+    padding: 30px;
+}
+div i{
+    margin:4px;
+}
+
+/*............................body elements css......................*/
+
+div#navbar{
+    background-color: black;
+    border-radius: 5px;
+    
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#search{
+  color:white; 
+  margin-right: 20px;
+  margin-left:10px;
+   
+}
+
+#inputDiv{
+    outline:none;
+    float:right;
+    margin: 10px;
+}
+
+.navmenu{
+    display: inline-block;
+    color:white;
+    font-size: 25px;
+    margin:10px;
+    
+}
+
+.navmenu:hover{
+
+}
+
+#option{
+   position: relative;
+}
+
+#filter{
+    background-color:#582C65;
+    border: 2px solid #582C65;
+    color:white;
+    font-size:17px;
+    display:inline-block;
+    padding:8px;
+    width: 130px;
+    border-radius: 5px;
+    text-align:center;
+    box-sizing: border-box;
+}
+#filter:hover{
+    background-color: white;
+    color:#582C65;
+    
+}
+
+#relpopnew{
+    position: absolute;
+    top:2px;
+    left:35vw;
+   
+}
+
+.rpn{
+    display: inline-block;
+    border: 2px solid #582C65;
+    border-radius: 5px;
+    font-size:17px;
+    padding: 8px 10px 8px 10px;
+    width: 70px;
+    text-align:center;
+}
+.rpn:hover{
+    background-color: #582C65;
+    color:white;
+}
+
+hr{
+    border: 1px solid #582C65;
+}
+
+.imgwidth{
+    text-align:center;
+}
+
+img{
+    height:220px;
+    width:220px;
+    border-radius: 5px;
+    
+    }
+
+#query{
+    background-color: lightgray;
+    
+    font-size: 18px;
+    padding:15px;
+    color:#582C65;
+    line-height:50%;
+}
+
+#textarea{
+    outline:none;
+    margin-left:10px;
+    color: #582C65;
+}
+
+footer{
+    background-color:lightgrey;
+    text-align:center;
+    color:#582C65;
+    line-height: 30px;
+}
